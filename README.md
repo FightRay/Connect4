@@ -5,6 +5,11 @@ The game features the full funcionality of the classic Connect4 game
 with 2 playing modes (Player vs AI or Local PvP) and 3 difficulty levels.
 It is fully responsive for both desktop and mobile devices, designed with pure css from scratch.
 
+## Demo URL
+I have uploaded the project to a Debian Linux instance on my personal website for demonstration.
+Have fun playing!
+https://connect4.intereality.io/
+
 ## Project setup
 ```
 npm install
