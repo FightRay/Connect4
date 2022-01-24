@@ -90,7 +90,7 @@
 						<div class="button" @click="mode = 1; page++">
 							<span>Player Vs Server</span>
 						</div>
-						<div class="button" @click="mode = 0; page++">
+						<div class="button" @click="mode = 0; page+=2">
 							<span>Player Vs Player<br>(Local)</span>
 						</div>
 					</template>
