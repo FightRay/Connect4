@@ -57,7 +57,7 @@
 			startGame(diff) {
 				this.difficulty = parseInt(diff);
 				this.$fetch(
-					"/play/start",
+					"/api/play/start",
 					{
 						difficulty: this.difficulty
 					},

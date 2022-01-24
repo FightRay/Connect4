@@ -76,7 +76,7 @@
 				};
 
 				this.$fetch(
-					"/play/move",
+					"/api/play/move",
 					data,
 					(result) => {
 						if (result.status) {
