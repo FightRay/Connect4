@@ -1,6 +1,6 @@
 {
   "name": "connectfour",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -21,5 +21,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "license": "NPOSL-3.0"
 }
