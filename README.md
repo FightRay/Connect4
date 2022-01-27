@@ -1,6 +1,6 @@
 # Connect4 by Ray
 Welcome to the Connect4 game respository.
-Made for the Aon assignment, built using VueJS 2.6 and PHP 8.0.
+Made as a home assignment for an interview, built using VueJS 2.6 and PHP 8.0.
 The game features the full funcionality of the classic Connect4 game 
 with 2 playing modes (Player vs AI or Local PvP) and 3 difficulty levels.
 It is fully responsive for both desktop and mobile devices, designed with pure css from scratch.
@@ -41,7 +41,3 @@ Run
 npm run build
 ```
 Copy the dist folder contents to a PHP supported web server. (ex. apache2)
-
-### Personal notes
-
-I really enjoyed developing and designing this game, it was a great experience.

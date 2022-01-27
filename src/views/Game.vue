@@ -72,6 +72,9 @@
 						alert("Could not start game, please try again later.");
 					}
 				);
+			},
+			getCurrentYear() {
+				return new Date().getFullYear();
 			}
 		},
 	};
@@ -81,7 +84,7 @@
 	<div class="wrapper">
 		<span class="title-text text-center-screen text-neon-green">Connect4 Game</span>
 		<span class="subtitle-text text-center-screen text-neon-green">Created by Ray</span>
-		<span class="footer-text text-center-screen text-neon-green">Made with ♥ for the Aon assignment</span>
+		<span class="footer-text text-center-screen text-neon-green">Copyright © {{ getCurrentYear() }} Intereality Ltd. All rights reserved.</span>
 		<template v-if="page < 2">
 			<div class="start-screen">
 				<span class="instruction-text text-neon-blue">{{ getInstructionText() }}</span>
